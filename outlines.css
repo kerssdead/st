@@ -75,9 +75,19 @@ p
     transition: color .1s;
 }
 
-.menu-main a, .menu-main a:visited {color: #141414;}
+.menu-main a, .menu-main a:visited
+{
+    color: rgba(20, 20, 20, 0.98);
+    text-shadow: 2px 0 0 rgba(24, 24, 24, 0.9);
+    /*color: #141414;*/
+}
 
-.menu-main a.current, .menu-main a:hover{color: #484848;}
+.menu-main a.current, .menu-main a:hover
+{
+    color: rgba(20, 20, 20, 0.98);
+    text-shadow: 2px 0 0 rgba(196, 196, 196, 0.9);
+    /*color: #484848;*/
+}
 
 .menu-main a:before,
 .menu-main a:after
