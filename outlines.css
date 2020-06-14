@@ -37,7 +37,7 @@ h2
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 30px;
     margin-left: 8px;
     margin-right: 8px;
 
@@ -51,6 +51,58 @@ p
     text-align: justify;
     margin-left: 4px;
     margin-right: 4px;
+}
+
+.contacts
+{
+    text-align: center;
+}
+
+.rectangle
+{
+    background: #e5e1d9;
+
+    width: 100%;
+    height: 215px;
+}
+
+.rec
+{
+    background: #ffffff;
+
+    width: 100%;
+    height: 45px;
+}
+
+.image1
+{
+    position: absolute;
+    left: 75%;
+    top: 230px;
+}
+
+.image2
+{
+    position: absolute;
+    right: 75%;
+    top: 536px;
+}
+
+.image3
+{
+    position: absolute;
+    left: 75%;
+    top: 845px;
+}
+
+.h2left
+{
+    margin-left: 33%;
+}
+
+.h2right
+{
+    margin-right: 33%;
 }
 
 .footer
